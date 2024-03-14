@@ -1,0 +1,26 @@
+#Download_select {
+    margin-bottom: 30px;
+}
+
+.Category-container {
+	display: none;
+    border-top: 1px solid #CCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Category-container table {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+.Category-container table tr td{
+    width: 200px;
+}
+
+.Category-container.show-Category{
+    display: block;
+}

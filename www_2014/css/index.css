@@ -1,0 +1,355 @@
+/*======================================================================== 
+    black-mask
+  ========================================================================*/
+
+#black_mask {
+    margin:0px;
+    padding:0px;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:#000000;
+    position:fixed;
+    z-index:400;
+    opacity:0.9;
+    /* this works in IE6, IE7, and IE8 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90); 
+    /* this works in IE8 only */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=90)";
+    display:none;
+}
+
+#mask_video {
+    position:fixed;
+    width:420px;
+    height:315px;
+    z-index:450;
+    top:50%;
+    margin-top:-150px;
+    left:50%;
+    margin-left:-250px;
+    display:none;
+}
+
+#icon_close {
+    position:fixed;
+    width: 25px;
+    height:25px;
+    z-index:450;
+    display:none;
+}
+
+/*======================================================================== 
+    EDM-Slideshow
+  ========================================================================*/
+
+.slideshow-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;   
+}
+
+.slideshow-container .cycle-slideshow {
+    overflow: hidden;
+    width: 100%;
+    height: 447px;
+}
+
+.edm-slideshow img {
+    overflow: hidden; 
+    width: 100%;
+    height: 447px;
+    vertical-align: middle;
+}
+
+/** Carousel slideshow-Pager **/
+
+#slideshow_Pager { 
+    text-align: center;
+    width: 100%;
+    z-index: 200;
+    position: absolute;
+    bottom: 25px;
+}
+
+#slideshow_Pager span { 
+    font-family: arial;
+    font-size: 3em;
+    width: 16px;
+    height: 16px; 
+    display: inline-block;
+    color: #ddd;
+    cursor: pointer; 
+}
+#slideshow_Pager span.cycle-pager-active {
+    color: #ce332f;
+}
+
+#slideshow_Pager > * {
+    cursor: pointer;
+}
+
+/*======================================================================== 
+    division line
+  ========================================================================*/
+
+hr.division-line {
+    margin-bottom: 20px;
+}
+
+/*======================================================================== 
+    HomeInfo
+  ========================================================================*/
+
+.Home-Info-container {
+    clear: both;
+    /*margin: 10px 0 10px 0;*/
+    margin: 10px 1px;
+    height: 245px;
+    vertical-align: middle;
+}
+
+/*===============================News====================================*/
+
+.Home-Info-container #News_Info {
+    background-color: #F4F4F2;
+    float: left;
+    height: 245px;
+    width: 25%;
+    font-size: 98%;
+    position:relative;
+}
+
+ul.News-Info-news li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8em;
+}
+
+ul.News-Info-news li a:hover {
+    color: #C60E0B;
+    text-decoration: underline;
+}
+
+#News_Info ul {
+    list-style-type:square;
+    list-style-image: url(../imgs/bullet.png);   
+}
+
+#News_Info ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Home-Info-container #News_Info ul{
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+#News_Info h1 {
+    color: #FFFFFF;
+    background-color: #C2C2BE;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px; 
+}
+
+.News-Info-more {
+/*    float: right;
+    padding: 0 20px 25px 0;*/
+    position: absolute;
+    right:0.8em;
+    bottom:1em;
+}
+
+/*=======================News_Products_Info=============================*/
+
+.Home-Info-container #News_Products_Info {
+    background-color: #F4F4F2;
+    float: left;
+    /*margin: 0 0 0 5px;*/
+    /*margin: 0 12px;*/
+    margin: 0 2%;
+    height: 245px;
+    /*width: 445px;*/
+    width: 46%;
+}
+
+#News_Products_Info h1 {
+    color:#FFF;
+    background-color: #C2C2BE;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#News_Products_Info #News_Products_Info_prev {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 70px;
+}
+
+#News_Products_Info #News_Products_Info_prev:hover, #News_Products_Info #News_Products_Info_next:hover{
+    cursor: pointer;
+}
+
+#News_Products_Info #News_Products_Info_next {
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 70px;        
+}
+
+.News-Products-slideshow-info img.News-Products-img {
+    float: left;
+    margin-top:35px;
+    padding-left: 10px;
+    width: 120px;
+    /*height: 120px;*/
+    /*width: 20%;*/
+}
+
+#News_Products_Info ul {
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#News_Products_Info ul li.News-Products-slideshow-title a {
+    text-decoration: none;
+    color: #ca1410;
+    font-size: 92%;
+}
+
+#News_Products_Info ul li.News-Products-slideshow-cont {
+    font-size: 0.7em;
+}
+
+#News_Products_Info ul li.News-Products-more {
+    float: right;
+}
+
+/*.News-Products-slideshow-info {
+    border: 1px solid blue;
+}*/
+/*=======================News_Products_award=============================*/
+
+.Home-Info-container #News_Products_award {
+    position:relative;
+    /*float: left;*/
+    float: right;
+    /*margin: 0 0 0 5px;*/
+    width: 24%;
+    height: 245px;
+    margin: 0;
+    /*padding: 21px 0 21px 0; */
+    border: 1px solid #CCC;
+}
+
+.Home-Info-container #News_Products_award img {
+    position:absolute;
+}
+
+/*======================================================================== 
+    media query Responsive Web Design
+  ========================================================================*/
+
+@media only screen and (max-width: 979px) {  /* Tablet and phone */
+
+/*======================================================================== 
+    EDM-Slideshow ((min-width: 768px) and (max-width: 979px))
+  ========================================================================*/
+
+.slideshow-container .cycle-slideshow {
+    overflow: hidden;
+    width: 100%;
+    height: initial;
+}
+
+.edm-slideshow img {
+    overflow: hidden; 
+    width: 100%;
+    height: initial;
+    vertical-align: middle;
+}
+
+/*======================================================================== 
+    HomeInfo ((min-width: 768px) and (max-width: 979px))
+  ========================================================================*/
+
+.Home-Info-container #News_Info {
+    background-color: #F4F4F2;
+    float: left;
+    height: 240px;
+    /*width: 180px;*/
+    /*font-size: 8pt;*/
+}
+
+/*.Home-Info-container #News_Info ul{
+    padding-left: 25px;
+    padding-right: 5px;
+}*/
+
+.News-Info-more {
+    float: right;
+    padding: 0 10px 0 0;
+}
+
+/*=======================News_Products_Info=============================*/
+
+.Home-Info-container #News_Products_Info {
+    /*margin: 0 0 0 6px;*/
+    /*height: 240px;*/
+    /*width: 344px;*/
+}
+
+#News_Products_Info_slideshow {
+    /*margin-top: 18px;
+    margin-left: 10px;*/
+}
+
+#News_Products_Info #News_Products_Info_prev {
+    /*float: left;
+    padding-left: 3px;
+    padding-right: 3px;*/
+}
+
+#News_Products_Info #News_Products_Info_next {
+    /*float: right;
+    padding-left: 3px;
+    padding-right: 3px;*/
+}
+
+.News-Products-slideshow-info img.News-Products-img {
+    /*width: 60px;
+    height: 60px;*/
+}
+
+#News_Products_Info ul li.News-Products-slideshow-title {
+    font-size: 0.9em;
+}
+
+/*=======================News_Products_award=============================*/
+
+.Home-Info-container #News_Products_award {
+    /*float: left;*/
+    /*padding: 33px 0 33px 0;*/
+    /*margin: 0 0 0 10px;*/
+}
+
+#News_Products_award img {
+    /*width: 205px;*/
+}
+
+}/*End (min-width: 768px) and (max-width: 979px) */

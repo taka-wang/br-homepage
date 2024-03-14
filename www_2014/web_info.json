@@ -1,0 +1,184 @@
+{
+  "Products": {
+    "title": "Products",
+    "tw_title": "產品",
+    "link": "products/products_K530.html",
+    "Sub_item": [
+      {
+        "USB Modem": {
+          "title": "USB Modem",
+          "tw_title": "USB 數據機",
+          "link": "",
+          "data": [
+            {
+              "title": "C500 Series",
+              "tw_title": "C500 系列",
+              "link": "products/products_C500.html"
+            }
+          ]
+        }
+      },
+      {
+        "Mobile Router": {
+          "title": "Mobile Router",
+          "tw_title": "行動路由器",
+          "link": "",
+          "data": [
+            {
+              "title": "P530 Series LTE Mobile Router",
+              "tw_title": "P530 系列 LTE 行動路由器",
+              "link": "products/products_P530.html"
+            }
+          ]
+        }
+      },
+      {
+        "Home Router": {
+          "title": "Home Router",
+          "tw_title": "家用路由器",
+          "link": "",
+          "data": [
+            {
+              "title": "R500 VoIP Home Router",
+              "tw_title": "R500 VoIP 家用路由器",
+              "link": "products/products_R500.html"
+            },
+            {
+              "title": "R550 LTE Home Router",
+              "tw_title": "R550 LTE 家用路由器",
+              "link": "products/products_R550.html"
+            },
+            {
+              "title": "R560 VoIP Home Router",
+              "tw_title": "R560 VoIP 家用路由器",
+              "link": "products/products_R560.html"
+            }
+          ]
+        }
+      },
+      {
+        "M2M/Vehicle Router": {
+          "title": "M2M / Vehicle Router",
+          "tw_title": "M2M 車載路由器",
+          "link": "",
+          "data": [
+            {
+              "title": "K530 Series",
+              "tw_title": "K530 系列",
+              "link": "products/products_K530.html"
+            }
+          ]
+        }
+      },
+      {
+        "Outdoor CPE": {
+          "title": "Outdoor CPE",
+          "tw_title": "戶外型 CPE",
+          "link": "",
+          "data": [
+            {
+              "title": "E580 Series",
+              "tw_title": "E580 系列",
+              "link": "products/products_E580.html"
+            }
+          ]
+        }
+      },
+      {
+        "Field Perfect": {
+          "title": "Field Perfect",
+          "tw_title": "Field Perfect",
+          "link": "products/products_FieldPerfect.html",
+          "data": [
+
+          ]
+        }
+      },
+      {
+        "Accessory": {
+          "title": "Accessory",
+          "tw_title": "產品配件",
+          "link": "products/products_Accessory.html",
+          "data": [
+
+          ]
+        }
+      }
+    ]
+  },
+  "Solutions": {
+    "title": "Solutions",
+    "tw_title": "解決方案",
+    "link": "",
+    "data": [
+      {
+        "title": "Industries",
+        "tw_title": "Industries",
+        "link": ""
+      },
+      {
+        "title": "Applications",
+        "tw_title": "Applications",
+        "link": ""
+      }
+    ]
+  },
+  "News_and_Events": {
+    "title": "News & Events",
+    "tw_title": "最新消息",
+    "link": "news.html",
+    "data": [
+      {
+        "title": "News",
+        "tw_title": "新聞",
+        "link": "news.html"
+      },
+      {
+        "title": "Events",
+        "tw_title": "活動",
+        "link": "events.html"
+      }
+    ]
+  },
+  "Support": {
+    "title": "Support",
+    "tw_title": "技術支援",
+    "link": "qanda.html",
+    "data": [
+      {
+        "title": "Download",
+        "tw_title": "檔案下載",
+        "link": "download.html"
+      },
+      {
+        "title": "Q&A",
+        "tw_title": "常見問題",
+        "link": "qanda.html"
+      }
+    ]
+  },
+  "About": {
+    "title": "About",
+    "tw_title": "關於",
+    "link": "about_us.html",
+    "data": [
+      {
+        "title": "About Us",
+        "tw_title": "關於鉅瞻",
+        "link": "about_us.html"
+      },
+      {
+        "title": "Career",
+        "tw_title": "求才訊息",
+        "link": "career.html"
+      }
+    ]
+  },
+    "Contact_US": {
+    "title": "Contact US",
+    "tw_title": "連絡我們",
+    "link": "contact.html",
+    "data": [
+    ]
+  }
+}

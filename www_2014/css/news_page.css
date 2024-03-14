@@ -1,0 +1,202 @@
+#body_container {
+    /*height: 850px;*/
+}
+
+#body_container.height_1020 {
+    /*height: 1530px;*/
+}
+
+#main_content_container {
+    /*height: 700px;*/
+}
+
+/*#body_content_column_right {
+    float: right;
+    height: 100%;
+}*/
+
+/*#body_content_column_right #breadcrumb {
+    color:  #a0a0a0;
+    font-size: 0.8em;
+}
+
+#body_content_column_right #breadcrumb a {
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+#body_content_column_right #breadcrumb a:hover {
+    text-decoration: underline;
+    color: #bb3f3f;
+}
+*/
+/*.News-and-Event-overview-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #307ca0;
+    font-size: 1.5em;
+}*/
+
+.News-and-Event-overview-content {
+    /*width: 720px;*/
+    font-size: 0.8em;
+}
+
+/*========================================================================
+    Event_overview
+  ========================================================================*/
+
+#body_content_column_right #Event_overview {
+    /*height: 800px;*/
+}
+
+.News-and-Event-overview-content .events-content {
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #cccccc;
+}
+
+.News-and-Event-overview-content .events-content img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*========================================================================
+    News_overview
+  ========================================================================*/
+
+#body_content_column_right #News_overview {
+    /*height: 800px;*/
+}
+
+.News-overview-title {
+    /*margin-top: 15px;
+    margin-bottom: 15px;
+    color: #b03432;
+    font-size: 1.5em;*/
+    /*width: 720px;*/
+}
+
+.News-overview-content {
+    /*width: 720px;*/
+    /*font-size: 1em;*/
+    line-height: 150%;
+    text-align:center;
+}
+
+.News-overview-content-pic.thumbnail img {
+    width: 630px;
+    height: 303px;
+}
+
+.News-overview-content .News-overview-content-date {
+    color:#a0a0a0;
+    text-align:left;
+    /*font-size: .9em;*/
+    margin-bottom: 10px;
+}
+
+.News-overview-content .News-overview-content-word {
+    color:#000000;
+    text-indent: 1.8em;
+    text-align: justify;
+}
+
+.News-overview-content .News-overview-content-back {
+    text-align:right;
+}
+
+#Article_List {
+    /*width: 720px;*/
+    width: 100%;
+}
+
+#Article_List tr.list {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #cccccc;
+}
+
+#Article_List tr.list > td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#Article_List .title img {
+    padding-right: 5px;
+}
+
+#Article_List .title a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#Article_List .title {
+    padding-right: 10px;
+}
+
+#Article_List .date {
+    color: #666;
+    padding-left: 10px;
+}
+
+#Article_List .title a:hover {
+    color: #C60E0B;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #C60E0B;
+}
+
+.News-overview-content .News-overview-content-word.smart-city-content {
+    float: right;
+    width: 53%;
+    margin-right: 20px;
+    line-height: 23px;
+}
+
+.News-overview-content .News-overview-content-word.smart-city-content div.sub-title {
+    color: #535353;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/*========================================================================
+    media query Responsive Web Design
+  ========================================================================*/
+/*@media only screen and (max-width: 767px) {
+
+}*//*End (max-width: 767px)*/
+
+
+@media only screen and (max-width: 979px) {  /* Tablet and phone */
+
+#body_container {
+    /*height: 750px;*/
+}
+
+#body_content_column_right {
+    /*width: 760px;*/
+}
+
+#Article_List {
+    width: 96%;
+}
+
+.News-and-Event-overview-content {
+    /*width: 600px;*/
+    font-size: 0.8em;
+}
+
+#side_navigation_container {
+    width: 180px;
+}
+
+}/*End (min-width: 768px) and (max-width: 979px) */
+
+
+/*@media only screen and (min-width: 980px) {
+
+}*//*End (min-width: 980px)*/*/

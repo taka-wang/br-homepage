@@ -1,0 +1,253 @@
+#body_container {
+    /*height: 850px;*/
+    min-height: 850px;
+    overflow: visible;
+}
+
+#main_content_container {
+    /*height: 700px;*/
+}
+
+/*========================================================================
+    About-overview
+  ========================================================================*/
+
+#body_content_column_right {
+    /*float: right;*/
+    /*height: 100%;*/
+    /*float: left;*/
+    /*width: 76%;*/
+}
+
+/*#body_content_column_right #About_overview {
+    height: 600px;
+}
+
+#body_content_column_right #breadcrumb {
+    color:  #a0a0a0;
+    font-size: 0.8em;
+}
+
+#body_content_column_right #breadcrumb a {
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+#body_content_column_right #breadcrumb a:hover {
+    text-decoration: underline;
+    color: #bb3f3f;
+}*/
+
+/*.About-overview-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #307ca0;
+    font-size: 1.5em;
+}*/
+
+.Aboutus-overview-content {
+    /*width: 720px;*/
+    /*font-size: 1em;*/
+    line-height: 150%;
+    text-indent: 1.8em;
+    text-align: justify;
+}
+
+.About-overview-pic {
+    /*margin-bottom: 10px;*/
+    margin-top: 30px;
+}
+
+.division-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* - Vision - */
+
+#vision_content_container #vision_content_left {
+    float: left;
+}
+
+#vision_content_container #vision_content_right {
+    float: right;
+}
+
+#vision_content_container .vision-content {
+    width: 396px;
+    /*font-size: 1em;*/
+    float: left;
+    line-height: 150%;
+    text-indent: 1.8em;
+    text-align: justify;
+}
+
+#vision_content_container .vision-pic {
+    float:right;
+}
+
+/*========================================================================
+    Career-overview
+  ========================================================================*/
+
+/*.career-overview-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #307ca0;
+    font-size: 1.5em;
+}*/
+
+#career_overview {
+    height: 90%;
+    overflow: auto;
+    /*border: 1px solid red;*/
+}
+
+.job-type {
+    min-height:230px;
+    /*width: 725px;*/
+    width: 100%;
+    font-family: "Microsoft JhengHei";
+    /*border: 1px solid blue;*/
+}
+
+.job-type .job-type-title {
+    margin-bottom: 8px;
+}
+
+.job-type > .job-content {
+    min-height: 150px;
+    /*overflow: auto;*/
+    /*position: relative;*/
+    /*border: 1px solid red;*/
+}
+
+.job-type .job-condition {
+    /*width: 360px;*/
+    width: 49.5%;
+    /*height: 100%;*/
+    float: left;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*top: 0;*/
+}
+
+.job-type .job-requirement {
+    /*width: 360px;*/
+    width: 49.5%;
+    /*height: 100%;*/
+    float: right;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+}
+
+.job-type h4 {
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #a8a8a8;
+    font-size: 0.9em;
+}
+
+.job-type .job-title {
+    color: #6792a3;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.job-type .job-department {
+    color: #979797;
+}
+
+.job-type .job-needs {
+    float: right;
+    color: #979797;
+}
+
+.job-type .job-condition {
+    background: #f2f2f0;
+    margin-right: 1px;
+}
+
+.job-type .job-condition li {
+    list-style-type: decimal;
+    /*font-size: 0.8em;*/
+    padding: 2px;
+}
+
+.job-type .job-requirement {
+    background: #f2f2f0;
+    margin-left: 1px;
+}
+
+.job-type .job-requirement li{
+    list-style-type: decimal;
+    /*font-size: 0.8em;*/
+    padding: 2px;
+}
+
+/*.career-contact > .content--header {
+    color: #535353;
+    font-size: 14px;
+    font-weight: bold;
+}*/
+
+/*.career-contact ul, .career-contact ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #535353;
+    line-height: 24px;
+}*/
+
+.career-contact ul {
+    list-style: none;
+    padding-left: 25px;
+}
+
+
+/*========================================================================
+    media query Responsive Web Design
+  ========================================================================*/
+/*@media only screen and (max-width: 767px) {
+
+}*//*End (max-width: 767px)*/
+
+
+@media only screen and (max-width: 979px) {  /* Tablet and phone */
+
+#body_container {
+    /*height: 750px;*/
+}
+
+#body_content_column_right {
+    /*width: 760px;*/
+    /*width: 76%;*/
+}
+
+.about-pic img {
+    width: 600px;
+    height: 119px;
+}
+
+.Aboutus-overview-content {
+    width: 600px;
+    /*font-size: 0.8em;*/
+}
+
+#vision_content_container .vision-content {
+    width: 300px;
+}
+
+#side_navigation_container {
+    width: 180px;
+}
+
+
+}/*End (min-width: 768px) and (max-width: 979px) */
+
+
+/*@media only screen and (min-width: 980px) {
+
+}*//*End (min-width: 980px)*/*/

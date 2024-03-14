@@ -1,0 +1,62 @@
+<div id="header">
+    
+    <div class = "contact-us-and-language-type-container">
+        <div class="right-corner-bevel"></div>
+        <div class="right-corner"><a href="../contact.html" target="_parent">Contact Us</a></div>
+        <div id="lang_type" class="right-corner">English</div>
+    </div><!-- / contact-us-and-language-type -->
+
+
+    <div class="header-container">
+        <div class="logo">
+            <a href="../../index.html" target="_parent">
+                <img src = "../imgs/logo.png" alt = "BandLuxe" />
+            </a>
+        </div><!-- / logo -->
+        
+        <div  id = "main_navigation_container">
+            <ul class="nav">
+                
+                {{#header_title}}
+                    {{#if products}}
+
+                    <li id="item1_products" class="main-navigation-item">{{main_item}}
+                        <ul class="menu">
+                            {{#sub_item}}
+                                {{#if remove_series_link}}
+
+                                    <li><a href='../{{link}}'>{{title}}</a>
+                                        <ul class="menu-sub-item">
+                                            {{#product_Series}}<li><a href='../{{link}}'>{{title}}</a></li>{{/product_Series}}
+                                        </ul>
+                                    </li>
+
+                                {{else}}
+
+                                    <li>{{title}}
+                                        <ul class="menu-sub-item">
+                                            {{#product_Series}}<li><a href='../{{link}}'>{{title}}</a></li>{{/product_Series}}
+                                        </ul>
+                                    </li>
+
+                                {{/if}}
+
+                            {{/sub_item}}
+                        </ul>
+                    </li>
+
+                    {{else}}
+
+                        <li class="main-navigation-item li-a-center">{{main_item}}
+                            <ul class="menu">
+                                {{#sub_item}}<li><a href='../{{link}}'>{{title}}</a></li>{{/sub_item}}
+                            </ul>
+                        </li>
+
+                    {{/if}}
+                {{/header_title}} 
+
+            </ul> 
+        </div><!-- / main-navigation-container -->
+    </div><!-- / header-container -->        
+</div><!-- / header -->

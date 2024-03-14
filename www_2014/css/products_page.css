@@ -1,0 +1,319 @@
+body {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/*#breadcrumb {
+    color:  #a0a0a0;
+    font-size: 0.8em;
+}
+
+#breadcrumb a {
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+#breadcrumb a:hover {
+    text-decoration: underline;
+}*/
+
+#main_content_container {
+    /*height: 700px;*/
+    /*border: 1px solid red;*/
+}
+
+/*========================================================================
+    product-overview
+  ========================================================================*/
+#body_content_column_right {
+    float: right;
+    /*height: 100%;*/
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#body_content_column_right #product_overview {
+    /*height: 317px;*/
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+#body_content_column_right .product-overview-column-left {
+    float: left;
+    width: 50%;
+}
+
+#body_content_column_right .product-overview-column-right {
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+}
+
+#product_header .product-header-title {
+    /*color: #cb1313;*/
+    /*font-size: 2em;*/
+    margin-bottom: 10px;
+}
+
+.product-overview-column-left #product_highlights h5 {
+    margin: 20px 0 0 0;
+}
+
+.product-overview-column-left #product_highlights ul {
+    list-style-type:square;
+    list-style-image: url(../imgs/bullet-gray.png);
+}
+
+.product-overview-column-left #product_highlights ul li {
+    font-size: 0.9em;
+}
+
+.product-overview-column-left #product_gallery img {
+    width: 90px;
+    height: 67px;
+    margin:5px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+
+.product-overview-column-left #product_gallery img:hover {
+    cursor: pointer;
+}
+
+#product_main_image img{
+    width: 95%;
+}
+
+#product_main_image_1,
+#product_main_image_2,
+#product_main_image_3 {
+    display: none;
+}
+
+#product_main_image_1.show-img,
+#product_main_image_2.show-img,
+#product_main_image_3.show-img {
+    display: block;
+}
+
+#product_details {
+    position:relative;
+    /*width:750px;*/
+    width: 98%;
+    /*height:290px;*/
+    margin-top: 10px;
+    /*border: 1px solid red;*/
+}
+
+#product_details p, #product_details li {
+    text-align: justify;
+}
+
+#product_details p {
+    text-indent: 1.8em;
+}
+
+#product_details .title-content {
+    text-indent: 0;
+}
+
+#product_details .title-content:not(:first-child) {
+    margin-top: 30px;
+}
+
+.product-details-tabs{
+    float:left;
+    border-right: 2px solid #FFF;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.product-details-tabs label:hover{
+    cursor: pointer;
+}
+
+.product-details-tabs > input[type=radio]{
+    display:none;
+}
+
+.product-details-tabs label {
+    color:#FFFFFF;
+    display:block;
+    position:relative;
+    min-width:40px;
+    height:20px;
+    margin-right:-1px;
+    padding:5px 15px;
+    background:#a0a0a0;
+}
+
+.product-details-tabs label.checked-label-style{
+    color: #FFFFFF;
+    background:#cb1313;
+    border-bottom:1px solid transparent;
+    z-index:2;  
+}
+
+.product-details-tabs .content {
+    display:none;
+    position:absolute;
+    top:30px;
+    right:0;
+    /*bottom:0;*/
+    left:0;
+    z-index:1;
+    padding:10px 30px;
+    background:#FFF;
+    border:1px solid #AAA;
+    border-top:5px solid;
+    border-top-color: #cb1313;
+    /*font-size: .8em;*/
+    line-height: 150%;
+    color:#727272;
+    margin-top: 19px\9;
+    /*If IE8 margin-top will set 19px*/
+}
+
+/*.product-details-tabs > input[type=radio]:checked + label {
+    color: #FFFFFF;
+    background:#cb1313;
+    border-bottom:1px solid transparent;
+    z-index:2;
+}
+
+.product-details-tabs > input[type=radio]:checked ~ .content {
+    display:block;
+}*/
+
+.product-details-tabs .content-checked-style{
+    display:block;
+}    
+
+.product-details-tabs input[type=radio]{
+    display:none;  
+}
+
+/*If IE8 use opacity Hidden radio button*/
+.product-details-tabs input[type=radio]{
+    opacity: 0\9;
+    width: 0px\9;
+    height: 0px\9;
+    display: inline-block\9;
+    padding: 0\9;
+    margin: 0\9;
+    border: 0\9;
+}
+
+.content > .content--cell {
+    /*border: 1px solid red;*/
+    display: inline-block;
+    width: 30%;
+    padding: 8px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.content > .content--cell-fully {
+    /*border: 1px solid red;*/
+    display: inline-block;
+    width: 95%;
+    text-align: center;
+}
+
+.content > .content--cell > img {
+    width: 80px;
+}
+
+.content > .content--cell > .content--des  {
+    height: 40px;
+}
+
+.content > .content--cell > .content--btn  {
+    margin-top: 20px;
+}
+
+.content > .content--cell > .content--btn > .btn {
+    background-color: #999;
+    display: inline-block;
+    text-decoration: none;
+    /*width: 70px;*/
+    padding: 2px 10px;
+}
+
+.content > .content--cell > .content--btn > .btn:hover {
+    background-color: #C60E0B;
+}
+
+.iconSet {
+    /*border: 1px solid red;*/
+    text-align: right;
+}
+
+.iconSet > img {
+    margin: 3px;
+}
+
+.imgSet {
+    width: 100%;
+    text-align: center;
+}
+
+.imgSet > img {
+    max-width: 80%;
+}
+/*========================================================================
+    media query Responsive Web Design
+  ========================================================================*/
+/*@media only screen and (max-width: 767px) {
+
+}*//*End (max-width: 767px)*/
+
+
+@media only screen and (max-width: 979px) {  /* Tablet and phone */
+
+#body_content_column_right {
+    /*width: 610px;*/
+}
+
+#product_header .product-header-title {
+    /*font-size: 1.5em;*/
+}
+
+.product-overview-column-left #product_highlights ul {
+    /*padding-left: 15px;*/
+}
+
+#product_main_image img{
+    /*width: 260px;
+    height: 193px;
+    margin-top: 20px;*/
+    width: 90%;
+}
+
+#product_details {
+    /*width: 600px;*/
+    /*height: 240px;*/
+}
+
+}/*End (min-width: 768px) and (max-width: 979px) */
+
+
+/*@media only screen and (min-width: 980px) {
+
+}*//*End (min-width: 980px)*/
